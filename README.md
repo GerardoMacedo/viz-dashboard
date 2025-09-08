@@ -15,3 +15,5 @@ Interactive dashboard for exploring time-series data. Fetch stock prices via `yf
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+[![Smoke](https://github.com/GerardoMacedo/viz-dashboard/actions/workflows/smoke.yml/badge.svg)](https://github.com/GerardoMacedo/viz-dashboard/actions/workflows/smoke.yml)
