@@ -1,0 +1,14 @@
+# Streamlit Data Viz Dashboard 📈
+
+Interactive dashboard for exploring time-series data. Fetch stock prices via `yfinance` **or** upload your own CSV, then filter, resample, plot moving averages, and download the filtered data.
+
+## Features
+- Sidebar controls: date range, interval, resample (W/M/Q), normalize, moving averages
+- Line & bar charts with Plotly
+- CSV upload support + CSV download of filtered data
+- Caching for fast reloads
+
+## Run locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
