@@ -1,5 +1,4 @@
-cat > .github/workflows/smoke.yml << 'YAML'
-name: smoke
+name: Dashboard Smoke
 on:
   push:
     branches:
@@ -23,4 +22,3 @@ jobs:
 
       - name: Import app
         run: python -c "import app; print('import ok')"
-YAML
